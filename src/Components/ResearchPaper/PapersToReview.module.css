@@ -1,0 +1,241 @@
+.container {
+    display: flex;
+    justify-content: center!important;
+    margin: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center!important;
+    
+  }
+  
+  .col_md-4,
+  .col-md-6 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+  }
+  
+  .card {
+    border: 1px solid rgb(88, 188, 235);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: left;
+    color: #033142!important;
+  }
+
+  .card-head{
+    justify-content: space-between;
+  }
+
+  .card-author {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #033142!important;
+    max-width: 250px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #033142!important;
+    max-width: 250px;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-height: 30px;
+    height: 25px;
+  }
+
+
+  .card-text::-webkit-scrollbar {
+    width: 3px; 
+    height: 3px;
+  }
+
+  .card-text::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+
+  .card-text::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 5px; 
+  }
+
+  .card-text::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+
+  .card-date {
+    font-size: 12px;
+    margin-bottom: 5px;
+    background: linear-gradient(to right, #f8f5f5, yellow) !important;
+    -webkit-background-clip: text;
+    margin-left: 15px;
+    text-align: right;
+    height: 20px;
+    color: black!important;
+    font-weight: bold;
+  }
+  
+
+  .card-status {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #045775!important;
+    color: white!important;
+  }
+  
+  .card-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white!important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    
+  }
+  
+  .card-link:hover {
+    background-color: #0056b3;
+    color: white!important;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pdf-preview {
+    width: 340px;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .view-pdf-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: white!important;
+    
+  }
+  
+
+  
+  .section {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .comment-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid rgb(88, 188, 235);
+    background-color: white !important;
+  }
+  
+  .comment-button:hover {
+    color: white !important;
+    border: 1px solid rgb(88, 188, 235) !important;
+    background-color: #045775 !important;
+  }
+  
+  .comment-button form {
+    display: flex; 
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .iconContainer {
+    width: 50px!important;
+    height: 100%!important;
+    display: flex;
+    align-items: center;
+    justify-content: center!important;
+    color: #033142 !important;
+  }
+  
+  .iconContainer:hover {
+    color: white !important;
+  }
+  
+  .icon {
+    
+    font-size: 1.6rem;
+  }
+  
+.form-input{
+  font-size: 12px!important;
+}
+
+.link-view {
+  background-color: #045775!important;
+  color: white!important;
+  align-items: center;
+  justify-content: center!important;
+  height: 100%;
+  width: 70%!important;
+  padding: 3px;
+}
+
+.link-view:hover {
+  background-color: #023142!important;
+  
+}
+
+.link-comments {
+  background-color: #045775!important;
+  color: white!important;
+  align-items: center;
+  justify-content: center!important;
+  height: 100%;
+  width: 30%!important;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.link-comments:hover {
+  background-color: #023142!important;
+  
+}

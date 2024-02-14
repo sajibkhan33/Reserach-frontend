@@ -1,0 +1,21 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .container p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .container p:last-child {
+    margin-bottom: 0;
+  }
+  
